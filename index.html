@@ -11,6 +11,7 @@
 
 	<!-- Custom CSS Link -->
 	<link rel="stylesheet" href="./css/login.css">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="./js/login.js"></script>
@@ -24,23 +25,15 @@
 					<img src="assets/logo.png" class="img-fluid" alt="Logo">
 				</div>
 				<form id="login_form" class="rounded bg-white shadow py-5 px-4">
-					<h3 class="text-dark fw-bolder fs-4 mb-2">Login In</h3>
+					<!-- <h3 class="text-dark fw-bolder fs-4 mb-2">Login In</h3> -->
 					<div class="fw-normal text-muted mb-4"> New Here?
 						<a href="register.html" class="text-primary fw-bold text-decoration-none">Create an Account</a>
 					</div>
-					<div class="form-floating mb-3">
-						<input type="email" class="form-control" id="email" name="email">
-						<label for="email">Email address</label>
+					<div class="fw-normal text-muted mb-4"> Alreaady a user!
+						<a href="login.html" class="text-primary fw-bold text-decoration-none">Login to your Account</a>
 					</div>
-					<div class="form-floating">
-						<input type="password" class="form-control" id="password" name="password">
-						<label for="email">Password</label>
-					</div>
-					<div class="mt-2 text-end" onclick="notSet()">
-						<a href="#" class="text-primary fw-bold text-decoration-none">Forget Password?</a>
-					</div>
+					
 					<div id="error-message"></div>
-					<button id="log_btn" type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
 				</form>
 			</div>
 		</div>
